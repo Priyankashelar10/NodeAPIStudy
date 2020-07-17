@@ -2,7 +2,7 @@ var express = require("express");
 var router = express.Router();
 const fs = require("fs"); 
 
-router.post("/", function(req, res) {    
+router.get("/", function(req, res) {    
 
     fs.readFile("DB/parking.json", function(err, data) { 
 	
@@ -14,7 +14,7 @@ router.post("/", function(req, res) {
     }
 
 	// Converting to JSON 
-    const parkingDb = (JSON.parse(data)).ParkingData; 
+    const parkingDb = (JSON.parse(data1)).ParkingData; 
 
     res.json(parkingDb);
     
