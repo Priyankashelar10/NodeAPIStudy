@@ -1,0 +1,16 @@
+{
+    "ParkingData" : [
+        { 
+            "flatNo" : 304,
+        "parkingNo" : 19
+        
+        }, 
+        { 
+        
+            "flatNo" : 303,
+            "parkingNo" : 53
+        
+        } 
+    ]
+}
+    
